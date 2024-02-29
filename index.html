@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Glitz Glam | Cosmetics</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="shortcut icon" href="assets/logo.png" type="assets/logo">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <script>
+       function toggleMenu() {
+        var menu = document.querySelector('.navbar-menu');
+        menu.classList.toggle('active');
+        var toggle = document.querySelector('.navbar-toggle');
+        toggle.classList.toggle('active');
+      }
+  </script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-logo">
+          <img src="assets/logo.png" alt="">
+        </div>
+        <div class="navbar-toggle" onclick="toggleMenu()">
+            <div class="icon"></div>
+            <div class="icon"></div>
+            <div class="icon"></div>
+        </div>
+        <div class="navbar-menu">
+          <ul>
+            <li><a href="#Beranda">Beranda</a></li>
+            <li><a href="#Tentang">Tentang</a></li>
+            <li><a href="#Gallery">Gallery</a></li>
+            <li><a href="#Kontak">Kontak</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <section class="home-section" id="Beranda">
+        <div class="container">
+            <div class="content">
+                <h1>Hi! <span id="nama">Your name</span> Welcome to Glitz Glam!</h1>
+                <p>Temukan kecantikan sejati Anda dengan produk kami. Dapatkan pengalaman yang luar biasa dengan koleksi kosmetik terbaru kami.</p>
+            </div>
+            <div class="image">
+                <img src="assets/beranda.png" alt="Deskripsi Gambar">
+            </div>
+        </div>
+    </section>
+    
+    <section class="tentang" id="Tentang">
+        <div class="tentang-text">
+            <h2>Tentang</h2>
+            <h1>Kenapa sih harus Glitz Glam?!</h1>
+        </div>
+
+        <div class="container">
+          <div class="tentang-card">
+            <img src="assets/hero1.png" alt="Deskripsi Kartu 1"> 
+            <div class="card-content">
+              <p>Menggunakan bahan-bahan alami berkualitas tinggi yang dipilih dengan hati-hati, memberikan aroma yang autentik dan murni.</p>
+            </div>
+          </div>
+
+          <div class="tentang-card">
+            <img src="assets/hero2.png" alt="Deskripsi Kartu 2">
+            <div class="card-content">
+              <p>Dipilih dengan cermat untuk keunggulan produk ramah lingkungan, non-iritasi, dan menyehatkan kulitmu.</p>
+            </div>
+          </div>
+
+          <div class="tentang-card">
+            <img src="assets/hero3.png" alt="Deskripsi Kartu 3">
+            <div class="card-content">
+              <p>Membantu mencegah iritasi dan kemerahan, serta memberikan tampilan kulit yang lebih sehat dan berseri.</p>
+            </div>
+          </div>
+        </div>
+    </section>
+  
+    <div class="tentang-lainnya-text">
+      <h2><center>Yuk kenalan sama tim kita!</center></h2>
+    </div>
+    <div class="tentang-lainnya">
+      <div class="container">
+          <div class="image-big">
+              <img src="assets/artist1.png" alt="Deskripsi Gambar Besar" width="415px">
+          </div>
+          <div class="image-small">
+              <div class="image-row">
+                  <div class="image-circle">
+                      <img src="assets/artist2.jpg" alt="Deskripsi Gambar Bulat 1">
+                      <h4>Emma Watson</h4>
+                      <p>(CEO & Co-Founder)</p>
+                  </div>
+                  <div class="image-circle">
+                      <img src="assets/artist3.jpg" alt="Deskripsi Gambar Bulat 2">
+                      <h4>Olivia Parker </h4>
+                      <p>(Co-Founder & Creative Director)</p>
+                  </div>
+                  <div class="image-circle">
+                      <img src="assets/artist4.jpg" alt="Deskripsi Gambar Bulat 3">
+                      <h4>Jessica Lee </h4>
+                      <p>(COO)</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  </div>
+</section> 
+
+<div class="timeline-section-text">
+  <h2>Sejarah Glitz Glam</h2>
+</div>
+
+<section class="timeline-section">
+  <div class="timeline">
+    <div class="container1 left">
+      <div class="content1" data-year="2010">
+        <h2>2010</h2>
+        <p>Glitz Glam Cosmetics didirikan di Los Angeles, California oleh Emma Watson dan Olivia Parker.</p>
+      </div>
+    </div>
+    <div class="container1 right">
+      <div class="content1" data-year="2015">
+        <h2>2015</h2>
+        <p>Pembukaan kantor pusat baru di New York City.</p>
+      </div>
+    </div>
+    <div class="container1 left">
+      <div class="content1" data-year="2018">
+        <h2>2018</h2>
+        <p>Perluasan ke pasar internasional dengan peluncuran toko online dan kehadiran di toko-toko ritel di Eropa dan Asia.</p>
+      </div>
+    </div>
+    <div class="container1 right">
+      <div class="content1" data-year="2020">
+        <h2>2020</h2>
+        <p>Menerima penghargaan sebagai merek kosmetik terbaik tahun ini oleh Beauty Awards Magazine.</p>
+      </div>
+    </div>
+    <div class="container1 left">
+      <div class="content1" data-year="2024">
+        <h2>2024</h2>
+        <p>Peluncuran kampanye 'Beauty Beyond Boundaries' yang menekankan keberagaman dan inklusivitas dalam industri kecantikan.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="gallery" id="Gallery">
+  <div class="gallery-text">
+    <h2>Gallery</h2>
+  </div>
+  <div class="gallery-container">
+    <div class="slides">
+      <img src="assets/1.jpg" alt="Image 1">
+      <img src="assets/2.jpg" alt="Image 2">
+      <img src="assets/3.jpg" alt="Image 3">
+    </div>
+  </div>
+</section>
+
+<section class="kontak" id="Kontak">
+  <div class="kontak-text">
+    <h2>Kontak Kami</h2>
+  </div>
+  <div class="kontak-container">
+  <div class="kontak-form">
+    <form id="contactForm">
+      <div class="form-group">
+        <label for="nama">Nama:</label>
+        <input type="text" id="nama" name="nama" required>
+      </div>
+      <div class="form-group">
+        <label for="tgl_lahir">Tanggal Lahir:</label>
+        <input type="date" id="tgl_lahir" name="tgl_lahir" required>
+      </div>
+      <div class="form-group">
+        <label for="jenis_kelamin">Jenis Kelamin:</label>
+        <input type="radio" id="laki-laki" name="jenis_kelamin" value="Laki-laki" required> Laki- laki
+        <input type="radio" id="perempuan" name="jenis_kelamin" value="Perempuan" required> Perempuan
+      </div>
+      <div class="form-group">
+        <label for="pesan">Pesan:</label>
+        <textarea id="pesan" name="pesan" rows="4" required></textarea>
+      </div>
+      <button type="submit">Kirim</button>
+    </form>
+    <div class="hasil-submit" id="hasilSubmit">
+    </div>
+  </div>
+</div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <p><center>&copy; 2024 Glitz Glam Cosmetics. All Rights Reserved.</center></p>
+  </div>
+</footer>
+
+    <script src="js/script.js"></script>
+    
+</body>
+</html>
